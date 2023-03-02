@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Prueba from './components/Prueba';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <section>
+        <p>Email</p>
+        <input type= 'text' id= 'text-id' ></input>
+        <p>Password</p>
+        <input type= 'text' id= 'text-password' ></input>
+        <button className='login'>Login</button>
+      </section>
+    </>
   );
 }
 
